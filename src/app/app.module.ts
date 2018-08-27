@@ -9,7 +9,7 @@ import { AppComponent } from './app.component';
     AppComponent
   ],
   imports: [
-    BrowserModule, NgMousetrapModule.forRoot()
+    BrowserModule, NgMousetrapModule.forRoot({ cheatSheetCloseEsc: true })
   ],
   providers: [],
   bootstrap: [AppComponent]
