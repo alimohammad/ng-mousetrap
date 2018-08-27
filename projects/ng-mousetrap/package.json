@@ -1,8 +1,24 @@
 {
   "name": "ng-mousetrap",
   "version": "0.0.1",
+  "license": "MIT",
+  "author": {
+    "name": "Mohd Ali",
+    "email": "alimohammad2011@gmail.com"
+  },
+  "keywords": [
+    "angular",
+    "mousetrap",
+    "hotkeys",
+    "angular6",
+    "hotkeys",
+    "keyboard",
+    "shortcuts"
+  ],
   "peerDependencies": {
     "@angular/common": "^6.0.0-rc.0 || ^6.0.0",
-    "@angular/core": "^6.0.0-rc.0 || ^6.0.0"
+    "@angular/core": "^6.0.0-rc.0 || ^6.0.0",
+    "mousetrap": "^1.6.2",
+    "@types/mousetrap": "^1.6.0"
   }
 }
